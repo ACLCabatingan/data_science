@@ -19,5 +19,4 @@ dependencies:
   - tqdm
   - tensorflow
   - pycaret
-  - pytest
-  - pyyaml
+  - zipfile38

@@ -1,0 +1,23 @@
+name: data_science
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - deepdiff
+  - ipykernel
+  - keras
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python
+  - scipy
+  - seaborn
+  - statsmodels
+  - tslearn
+  - tqdm
+  - tensorflow
+  - pycaret
+  - pytest
+  - pyyaml

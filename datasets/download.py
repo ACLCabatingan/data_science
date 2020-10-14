@@ -3,6 +3,7 @@ import time
 from zipfile import ZipFile
 from kaggle.api.kaggle_api_extended import KaggleApi
 
+#TODO: 
 
 def dnld_kaggle_data(dataset, filename, delete_zip=True):
     #MVP function to download data from kaggle
@@ -28,7 +29,7 @@ def dnld_kaggle_data(dataset, filename, delete_zip=True):
         if delete_zip:
             os.remove(filename+'.zip')
             
-    os.replace(filename, 'data/'+filename)
+    os.replace(os.getcwd()+'/'+filename, os.path.expanduser('~')+'/data_science/datasets/data/'+filename)
     t2 = time.time()
     
     print(f'File ready! It took {round(t2-t1, 1)} seconds.')

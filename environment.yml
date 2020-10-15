@@ -7,10 +7,12 @@ dependencies:
   - deepdiff
   - ipykernel
   - keras
+  - lifelines
   - matplotlib
   - numpy
   - pandas
   - pip
+  - plotly
   - python
   - scipy
   - seaborn
